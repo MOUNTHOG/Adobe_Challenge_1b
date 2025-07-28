@@ -1,0 +1,27 @@
+{
+    "challenge_info": {
+        "challenge_id": "round_1b_002",
+        "test_case_name": "business_analysis",
+        "description": "Analyze revenue trends, R&D investments, and market positioning strategies using annual reports of competing tech companies (2022–2024)."
+    },
+    "documents": [
+        {
+            "filename": "IBM 2024 Annual Report.pdf",
+            "title": "IBM 2024 Annual Report"
+        },
+        {
+            "filename": "Microsoft Annual Report 2024.pdf",
+            "title": "Microsoft 2024 Annual Report"
+        },
+        {
+            "filename": "Oracle Financial Services.pdf",
+            "title": "Oracle Financial Services Annual Report 2023–24"
+        }
+    ],
+    "persona": {
+        "role": "Investment Analyst"
+    },
+    "job_to_be_done": {
+        "task": "Analyze revenue trends, R&D investments, and market positioning strategies"
+    }
+}

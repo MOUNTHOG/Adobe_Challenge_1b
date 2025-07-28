@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "input_documents": [
+      "Graph Neural Networks for Molecules.pdf",
+      "Graph Neural Networks in Modern AI-aided Drug Discovery.pdf",
+      "Molecular Graph Representation Learning.pdf",
+      "Recent Developments in GNNs for Drug Discovery.pdf"
+    ],
+    "persona": "PhD Researcher in Computational Biology",
+    "job_to_be_done": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks",
+    "processing_timestamp": "2025-07-28T23:34:23.233013"
+  },
+  "extracted_sections": [
+    {
+      "document": "Graph Neural Networks in Modern AI-aided Drug Discovery.pdf",
+      "section_title": "1.2. Scope and Organization of This Review",
+      "importance_rank": 1,
+      "page_number": 7
+    },
+    {
+      "document": "Molecular Graph Representation Learning.pdf",
+      "section_title": "4.3 Performance Evaluation on Large-Scale Real-World Datasets",
+      "importance_rank": 2,
+      "page_number": 12
+    },
+    {
+      "document": "Molecular Graph Representation Learning.pdf",
+      "section_title": "4.2 Performance Evaluation on Molecular Graph Datasets",
+      "importance_rank": 3,
+      "page_number": 11
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "6.4.1 Protein-Ligand Binding Databases",
+      "importance_rank": 4,
+      "page_number": 19
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "section_title": "1 Department of Computer and Data Sciences, Case Western Reserve University",
+      "importance_rank": 5,
+      "page_number": 1
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Graph Neural Networks in Modern AI-aided Drug Discovery.pdf",
+      "refined_text": "This review aims to provide a comprehensive and structured overview of GNN in modern AIDD, with a focus on their methodological foundations and practical challenges. In contrast to existing surveys that often center on specific tasks or empirical comparisons, we approach the subject from a model-centric perspective, examining the conceptual underpinnings of GNNs and their roles across diverse molecular design tasks, as shown in Figure 1B. Special attention is given to recent advances in large-scale GNNs, geometric deep learning, interpretability, uncertainty quantification, graph generative modeling, and reinforcement learning (RL).",
+      "page_number": 7
+    },
+    {
+      "document": "Molecular Graph Representation Learning.pdf",
+      "refined_text": "To answer Q2, we evaluate our model on four large-scale real-world datasets from the Open Graph Benchmark (OGB) [16]. They are two binary classification datasets– ogbg-molhiv, ogbn-proteins and two multiclass classification datasets– ogbg-molt oxcast, ogbg-molpcba. In this part, we compare our model with GIN, GCN, GSN, PNA, HM-GNN and GPNN. Except that the hyperparameters we tuned for each dataset varied as (1) learning rate∈ 0.01, 0.001; (2) number of hidden units∈ 10, 16; (3) dropout rate∈ 0.5, 0.7, 0.9; (4) the batch size∈ 128, 5000, 28000, others are the same as above experiment. Table 2 shows the AP results on Ogbg-molpcba and ROC-",
+      "page_number": 12
+    },
+    {
+      "document": "Molecular Graph Representation Learning.pdf",
+      "refined_text": "To learn graph feature representations in our molecular structural similarity motif graphs, 3 GNN layers are applied. For a fair comparison, we evaluate all baselines using the experiment settings provided by [45]. The hyper-parameters we tune for each dataset are (1) the learning rate∈ 0.01, 0.05; (2) the number of hidden units∈ 16, 64, 1024; (3) the dropout ratio∈ 0.2, 0.5. We set the verification method as the mean and standard deviation of the seven best validation accu- racies from ten folds. We compare MSSM-GNN with the baseline approaches on the abovementioned dataset to answer Q1. The comparison results are summa-",
+      "page_number": 11
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "Protein–ligand binding describes the specific interactions between proteins (often therapeutic targets or re- ceptors) and small-molecule ligands (including drugs). These interactions drive most biochemical modula- tion and are critical for drug discovery, off-target prediction, and mechanistic studies. Below, we summarize several widely used public datasets. ChEMBL [122] is a manually curated database focusing on bioactive molecules with drug-like prop- erties. To assess the binding affinity of small-molecule ligands to their targets, ChEMBL primarily uses experimental bioactivity data extracted from scientific literature. To facilitate comparison and analysis, data",
+      "page_number": 19
+    },
+    {
+      "document": "Recent Developments in GNNs for Drug Discovery.pdf",
+      "refined_text": "2Department of Biochemistry, Case Western Reserve University 3Center for RNA Science and Therapeutics, Case Western Reserve University 4Department of Biomedical Engineering, Case Western Reserve University In this paper, we review recent developments and the role of Graph Neural Networks (GNNs) in computational drug discovery, including molecule generation, molecular property prediction, and drug-drug interaction prediction. By summarizing the most recent developments in this area, we underscore the capabilities of GNNs to comprehend intricate molecular patterns, while exploring both their current and prospective applications. We initiate our discussion by exam-",
+      "page_number": 1
+    }
+  ]
+}

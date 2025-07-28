@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "input_documents": [
+      "IBM 2024 Annual Report.pdf",
+      "Microsoft Annual Report 2024.pdf",
+      "Oracle Financial Services.pdf"
+    ],
+    "persona": "Investment Analyst",
+    "job_to_be_done": "Analyze revenue trends, R&D investments, and market positioning strategies",
+    "processing_timestamp": "2025-07-28T23:11:16.859944"
+  },
+  "extracted_sections": [
+    {
+      "document": "Microsoft Annual Report 2024.pdf",
+      "section_title": "Cash, Cash Equivalents, and Investments",
+      "importance_rank": 1,
+      "page_number": 36
+    },
+    {
+      "document": "Oracle Financial Services.pdf",
+      "section_title": "Technology trends in the financial services industry and outlook",
+      "importance_rank": 2,
+      "page_number": 40
+    },
+    {
+      "document": "Oracle Financial Services.pdf",
+      "section_title": "Management’s discussion and analysis",
+      "importance_rank": 3,
+      "page_number": 39
+    },
+    {
+      "document": "Oracle Financial Services.pdf",
+      "section_title": "Particulars of loans, guarantees or investments",
+      "importance_rank": 4,
+      "page_number": 9
+    },
+    {
+      "document": "Microsoft Annual Report 2024.pdf",
+      "section_title": "Investments",
+      "importance_rank": 5,
+      "page_number": 53
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "Microsoft Annual Report 2024.pdf",
+      "refined_text": "Cash, cash equivalents, and short-term investments totaled $75.5 billion and $111.3 billion as of June 30, 2024 and 2023, respectively. Equity and other investments were $14.6 billion and $9.9 billion as of June 30, 2024 and 2023, respectively. Our short-term investments are primarily intended to facilitate liquidity and capital preservation. They consist predominantly of highly liquid investment-grade fixed-income securities, diversified among industries and individual issuers. The investments are predominantly U. S. dollar-denominated securities, but also include foreign currency-denominated securities to diversify risk. Our fixed-income investments are exposed to interest rate risk and credit risk.",
+      "page_number": 36
+    },
+    {
+      "document": "Oracle Financial Services.pdf",
+      "refined_text": "The banking and financial services industry has been undergoing a rapid transformation driven by technological advancements. Banks and financial institutions are leveraging cutting-edge tools to enhance customer experiences, streamline operations, manage regulations, and stay competitive in a digital-first world. Technology offers a choice of deployment models to the banks and significantly impacts the investments needed and time to respond to the market. The factors disrupting the industry are: Componentization and flexible deployment Banks gain agility by deploying solutions that are componentized and developed for a cloud native microservices based architecture.",
+      "page_number": 40
+    },
+    {
+      "document": "Oracle Financial Services.pdf",
+      "refined_text": "of financial condition and results of operations Technology trends in the financial services industry and outlook The banking and financial services industry has been undergoing a rapid transformation driven by technological advancements. Banks and financial institutions are leveraging cutting-edge tools to enhance customer experiences, streamline operations, manage regulations, and stay competitive in a digital-first world. Technology offers a choice of deployment models to the banks and significantly impacts the investments needed and time to respond to the market. The factors disrupting the industry are: Componentization and flexible deployment Banks gain agility by deploying solutions that are componentized and developed for a cloud native microservices based architecture.",
+      "page_number": 39
+    },
+    {
+      "document": "Oracle Financial Services.pdf",
+      "refined_text": "In terms of Section 186 of the Companies Act, 2013 (\"the Act\"), the particulars of loans, guarantees and investments have been disclosed in the financial statements. During the financial year 2023-24, the Company allotted 274,477 equity shares of face value of ₹ 5 each to its eligible employees and Directors of the Company and its subsidiaries who exercised their stock options under the prevailing Employee Stock Option Schemes of the Company. As a result, the paid-up equity share capital of the Company as on March 31, 2024 was ₹ 433,358,280 divided into 86,671,656 equity shares of face value of ₹ 5 each.",
+      "page_number": 9
+    },
+    {
+      "document": "Microsoft Annual Report 2024.pdf",
+      "refined_text": "original maturities of greater than three months and remaining maturities of less than one year are classified as short-term and because such marketable securities represent the investment of cash that is available for current operations. identification method. Changes in fair value, excluding credit losses and impairments, are recorded in other comprehensive income. Fair value is calculated based on publicly available market information or other estimates determined by management. If the cost of an investment exceeds its fair value, we evaluate, among other factors, general market conditions, credit quality of debt instrument issuers, and the extent to which the fair value is less than cost.",
+      "page_number": 53
+    }
+  ]
+}

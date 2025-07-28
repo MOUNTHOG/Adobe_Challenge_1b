@@ -1,0 +1,34 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_145",
+    "test_case_name": "Academic Research"
+  },
+  "documents": [
+    { 
+        "filename": "Chemical Bonding and Molecular Structure.pdf", 
+        "title": "Chemical Bonding and Molecular Structure" 
+    },
+    { 
+        "filename": "Nucleophilic Substitution.pdf", 
+        "title": "Nucleophilic Substitution" 
+    },
+    { 
+        "filename": "Polar Addition and Elimination Reactions.pdf", 
+        "title": "Polar Addition and Elimination Reactions" 
+    },
+    { 
+        "filename": "Stereochemistry, Conformation and Stereoselectivity.pdf", 
+        "title": "Stereochemistry, Conformation and Stereoselectivity" 
+    },
+    { 
+        "filename": "Structural Effects on Stability and Reactivity.pdf", 
+        "title": "Structural Effects on Stability and Reactivity" 
+    }
+  ],
+  "persona": {
+    "role": "Undergraduate Chemistry Student"
+  },
+  "job_to_be_done": {
+    "task": "Identify key concepts and mechanisms for exam preparation on reaction kinetics"
+  }
+}

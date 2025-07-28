@@ -1,0 +1,30 @@
+{
+  "challenge_info": {
+    "challenge_id": "round_1b_123",
+    "test_case_name": "Academic Research"
+  },
+  "documents": [
+    {
+        "filename": "Graph Neural Networks for Molecules.pdf", 
+        "title": "Graph Neural Networks for Molecules"
+    },
+    {
+        "filename": "Graph Neural Networks in Modern AI-aided Drug Discovery.pdf", 
+        "title": "Graph Neural Networks in Modern AI-aided Drug Discovery"
+    },
+    {
+        "filename": "Molecular Graph Representation Learning.pdf", 
+        "title": "Molecular Graph Representation Learning"
+    },
+    {
+        "filename": "Recent Developments in GNNs for Drug Discovery.pdf", 
+        "title": "Recent Developments in GNNs for Drug Discovery"
+    }
+  ],
+  "persona": {
+    "role": "PhD Researcher in Computational Biology"
+  },
+  "job_to_be_done": {
+    "task": "Prepare a comprehensive literature review focusing on methodologies, datasets, and performance benchmarks"
+  }
+}
